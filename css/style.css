@@ -1,0 +1,28 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(to left, rgb(116, 116, 116), rgb(207, 187, 187));
+   flex-direction: column;
+}
+
+.container-conteudo {
+   gap: 10px;
+   align-items: center;
+   padding: 20px;
+   border: 1px solid black;
+   background: linear-gradient(to left, rgb(188, 128, 128), rgb(128, 127, 127));
+
+}
+
+span {
+   font-size: 30px;
+   font-family: monospace;
+}
